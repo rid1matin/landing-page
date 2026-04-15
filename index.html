@@ -8,9 +8,24 @@
 </head>
 <body>
   <div class="site-shell">
+    <div class="theme-switcher">
+      <button
+        class="theme-toggle"
+        type="button"
+        aria-expanded="false"
+        aria-controls="theme-options"
+        aria-label="Choose color theme"
+      ></button>
+      <div class="theme-options" id="theme-options">
+        <button class="theme-swatch theme-swatch-blue" type="button" data-theme-value="blue" aria-label="Blue theme"></button>
+        <button class="theme-swatch theme-swatch-emerald" type="button" data-theme-value="emerald" aria-label="Emerald theme"></button>
+        <button class="theme-swatch theme-swatch-burgundy" type="button" data-theme-value="burgundy" aria-label="Burgundy theme"></button>
+        <button class="theme-swatch theme-swatch-charcoal" type="button" data-theme-value="charcoal" aria-label="Charcoal theme"></button>
+      </div>
+    </div>
     <header class="site-header">
       <nav class="top-nav" aria-label="Primary">
-        <a class="brand" href="index.html">Ridone Matin</a>
+        <a class="brand" href="index.html">Home</a>
         <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="nav-links">
           Menu
         </button>
