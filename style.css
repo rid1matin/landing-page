@@ -176,22 +176,14 @@ body::before {
 .top-nav {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: flex-start;
   gap: 1rem;
 }
 
-.brand,
 .nav-links a,
 a {
   color: var(--accent);
   text-decoration: none;
-}
-
-.brand {
-  font-family: "Libre Baskerville", serif;
-  font-weight: 700;
-  font-size: 1.1rem;
-  color: #f5fbff;
 }
 
 .menu-toggle {
@@ -209,6 +201,7 @@ a {
   display: flex;
   flex-wrap: wrap;
   gap: 1rem;
+  margin-left: 0;
 }
 
 .nav-links a {
