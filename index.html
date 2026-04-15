@@ -3,72 +3,71 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Resume Landing Page</title>
+  <title>Ridone Matin | Home</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <header>
-    <h1>Ridone Matin</h1>
-    <p>Computer Science Student | Web Developer | Researcher</p>
-  </header>
+  <div class="site-shell">
+    <header class="site-header">
+      <nav class="top-nav" aria-label="Primary">
+        <a class="brand" href="index.html">Ridone Matin</a>
+        <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="nav-links">
+          Menu
+        </button>
+        <div class="nav-links" id="nav-links">
+          <a href="index.html" aria-current="page">Home</a>
+          <a href="experience.html">Experience</a>
+          <a href="portfolio.html">Portfolio</a>
+          <a href="contact.html">Contact</a>
+        </div>
+      </nav>
 
-  <main>
-    <section id="about">
-      <h2>About Me</h2>
-      <p>
-        I am a Computer Science student at Long Island University with a 3.80 GPA and an
-        expected graduation date of May 2027. My academic background includes coursework in
-        computer networking, data structures and algorithms, computer architecture, and
-        cryptography, and I have been recognized through the Dean's List, the Presidential
-        Scholarship, and the NSF S-STEM scholarship.
-      </p>
-    </section>
+      <div class="hero">
+        <p class="eyebrow">Computer Science Student</p>
+        <h1>Ridone Matin</h1>
+        <p class="hero-text">
+          Long Island University student focused on web development, academic research, and
+          building practical technical skills through real projects.
+        </p>
+      </div>
+    </header>
 
-    <section id="skills">
-      <h2>Skills / Experience</h2>
-      <ul>
-        <li>Programming: Python, C++, JavaScript, SQL, and Java</li>
-        <li>Tools: GitHub, Visual Studio Code, Eclipse, PyCharm, MySQL, and SQLite</li>
-        <li>Experience in tutoring, web development, academic research, and student leadership</li>
-      </ul>
-    </section>
+    <main class="content-grid">
+      <section class="panel">
+        <h2>About Me</h2>
+        <p>
+          I am a Computer Science student at Long Island University with a 3.80 GPA and an
+          expected graduation date of May 2027. My coursework includes computer networking, data
+          structures and algorithms, computer architecture, and cryptography.
+        </p>
+      </section>
 
-    <section id="experience">
-      <h2>Experience Highlights</h2>
-      <ul>
-        <li>
-          Freelance Web Developer: Built and deployed a full-stack healthcare site with responsive
-          front-end design, appointment booking, feedback systems, and database-backed workflows.
-        </li>
-        <li>
-          Head Tutor at Sultana Tutoring: Provided individualized instruction in SHSAT prep, math,
-          English, and science while adapting lesson plans to different learning styles.
-        </li>
-        <li>
-          Researcher at Long Island University: Contributed to tap water microbiology research tied
-          to environmental justice and public health infrastructure.
-        </li>
-      </ul>
-    </section>
+      <section class="panel">
+        <h2>Education</h2>
+        <p>Bachelor of Science in Computer Science</p>
+        <p>Long Island University, Brooklyn, New York</p>
+        <p>Expected May 2027</p>
+      </section>
 
-    <section id="contact">
-      <h2>Contact Information</h2>
-      <p>Email: <a href="mailto:ridonematin@gmail.com">ridonematin@gmail.com</a></p>
-      <p>
-        LinkedIn:
-        <a href="https://www.linkedin.com/in/ridone-matin/" target="_blank" rel="noreferrer">
-          linkedin.com/in/ridone-matin
-        </a>
-      </p>
-      <p>
-        GitHub:
-        <a href="https://github.com/rid1matin" target="_blank" rel="noreferrer">
-          github.com/rid1matin
-        </a>
-      </p>
-      <p>Location: Queens, New York</p>
-    </section>
-  </main>
+      <section class="panel">
+        <h2>Skills</h2>
+        <ul>
+          <li>Python, C++, JavaScript, SQL, and Java</li>
+          <li>GitHub, Visual Studio Code, Eclipse, and PyCharm</li>
+          <li>MySQL, SQLite, responsive front-end development</li>
+        </ul>
+      </section>
+
+      <section class="panel">
+        <h2>Awards</h2>
+        <ul>
+          <li>Dean's List</li>
+          <li>Presidential Scholarship</li>
+          <li>NSF S-STEM Scholar</li>
+        </ul>
+      </section>
+    </main>
+  </div>
 
   <script src="script.js"></script>
 </body>
