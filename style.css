@@ -98,9 +98,9 @@ body::before {
 }
 
 .theme-switcher {
-  position: fixed;
-  top: 140px;
-  right: 24px;
+  position: absolute;
+  top: 34px;
+  right: -40px;
   z-index: 4;
 }
 
@@ -357,8 +357,8 @@ a:focus-visible {
   }
 
   .theme-switcher {
-    top: 14px;
-    right: 14px;
+    top: 18px;
+    right: 8px;
   }
 
   .theme-options {
