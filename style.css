@@ -324,6 +324,11 @@ li {
   font-weight: 600;
 }
 
+.section-linkout {
+  margin-top: 1rem;
+  color: var(--muted);
+}
+
 ul {
   margin: 0;
   padding-left: 1.25rem;
